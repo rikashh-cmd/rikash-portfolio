@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rikash's portfolio — BICT undergraduate, software engineering student, and digital marketing intern.">
+  <meta name="theme-color" content="#f4f1ea">
+  <title>Rikash — Software & Digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"><span id="progress-bar"></span></div>
+  <header class="site-header" id="top">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Rikash, home"><span class="brand-mark">R.</span><span>rikash<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a><a href="#work">Work</a><a href="#journey">Journey</a><a href="#contact">Contact</a>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark theme" title="Toggle colour theme"><span class="theme-icon" aria-hidden="true">☾</span></button>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> BICT UNDERGRADUATE · SRI LANKA</p>
+        <h1 id="hero-title">Building useful things<br>for a <span class="accent-text">connected world.</span></h1>
+        <p class="hero-intro">Hi, I’m <strong>Rikash</strong> — a software engineering student at Uva Wellassa University and a digital marketing intern. I enjoy turning ideas into thoughtful digital experiences.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↘</span></a><a class="text-link" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-meta"><span>BASED IN SRI LANKA</span><span class="meta-line"></span><span>OPEN TO OPPORTUNITIES</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract portfolio illustration" role="img">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-sun"></div>
+        <div class="art-card card-top"><span class="mini-label">CURRENT FOCUS</span><strong>Code + creativity</strong><span class="card-spark">✳</span></div>
+        <div class="art-monogram">R<span>.</span></div>
+        <div class="art-card card-bottom"><span class="mini-label">LEARNING EVERY DAY</span><div class="skill-pills"><span>WEB</span><span>CODE</span><span>GROW</span></div></div>
+        <span class="art-caption">DESIGNING WHAT’S NEXT — 2026</span>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div class="wrap about-grid">
+        <div><p class="eyebrow">01 / A LITTLE ABOUT ME</p><h2 id="about-title">Curious by nature.<br><span class="muted">Driven to make.</span></h2></div>
+        <div class="about-body"><p>I’m currently pursuing a Bachelor of Information and Communication Technology (BICT) at <strong>Uva Wellassa University</strong>. Alongside my studies, I’m gaining hands-on experience as a digital marketing intern, learning how technology and communication work together.</p><p>I’m growing my skills in web development, problem solving, and digital strategy. This portfolio is a living snapshot of what I’m learning and building.</p>
+          <div class="skill-list" aria-label="Areas of interest"><span>HTML & CSS</span><span>JavaScript</span><span>Software Engineering</span><span>Digital Marketing</span><span>Content & SEO</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="section work-section" id="work" aria-labelledby="work-title">
+      <div class="wrap">
+        <div class="section-heading"><div><p class="eyebrow">02 / SELECTED WORK</p><h2 id="work-title">Things I’m building<span class="accent-text">.</span></h2></div><p class="heading-note">A few projects, experiments, and ideas<br>from my learning journey.</p></div>
+        <div class="project-grid" id="project-grid">
+          <article class="project-card project-featured">
+            <button class="project-open" data-project="portfolio" aria-label="View details for Personal Portfolio">
+              <div class="project-visual visual-portfolio"><span class="visual-index">01</span><div class="visual-window"><div class="window-bar"><i></i><i></i><i></i></div><div class="window-content"><span class="window-kicker">HELLO, WORLD</span><b>Ideas into<br>experience<span>.</span></b><div class="window-lines"><i></i><i></i></div></div></div><span class="visual-sticker">MY<br>SPACE ↗</span></div>
+              <div class="project-info"><div><p class="project-type">PERSONAL PROJECT · 2026</p><h3>Personal Portfolio</h3></div><span class="round-arrow" aria-hidden="true">↗</span><p class="project-summary">A responsive home for my work, learning, and story.</p><div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              </div>
+            </button>
+          </article>
+          <article class="project-card">
+            <button class="project-open" data-project="marketing" aria-label="View details for Digital Marketing Practice">
+              <div class="project-visual visual-marketing"><span class="visual-index">02</span><div class="orbit-label label-a">REACH</div><div class="orbit-label label-b">STORY</div><div class="marketing-core">✳</div><div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="visual-caption">MAKE IT<br>MATTER.</span></div>
+              <div class="project-info"><div><p class="project-type">INTERNSHIP · ONGOING</p><h3>Digital Marketing Practice</h3></div><span class="round-arrow" aria-hidden="true">↗</span><p class="project-summary">Exploring content, business listings, and how brands connect.</p><div class="tag-row"><span>CONTENT</span><span>SEO</span><span>RESEARCH</span></div>
+              </div>
+            </button>
+          </article>
+          <article class="project-card">
+            <button class="project-open" data-project="learning" aria-label="View details for Learning Lab">
+              <div class="project-visual visual-learning"><span class="visual-index">03</span><div class="code-window"><div class="code-head"><span>learning-lab.js</span><span>•••</span></div><div class="code-lines"><p><em>const</em> journey = {</p><p class="indent">curiosity: <b>true</b>,</p><p class="indent">practice: <b>daily</b>,</p><p class="indent">progress: <strong>∞</strong></p><p>};</p></div></div><span class="learning-star">✳</span></div>
+              <div class="project-info"><div><p class="project-type">EXPERIMENTS · 2026</p><h3>Learning Lab</h3></div><span class="round-arrow" aria-hidden="true">↗</span><p class="project-summary">Small coding exercises as I build confidence with the web.</p><div class="tag-row"><span>JAVASCRIPT</span><span>LEARNING</span></div>
+              </div>
+            </button>
+          </article>
+        </div>
+        <div class="github-panel"><div><span class="github-icon" aria-hidden="true">⌘</span><div><p class="eyebrow">FROM MY GITHUB</p><h3>More code, in progress.</h3></div></div><p id="github-status" class="github-status" aria-live="polite">Loading public repositories…</p><div id="github-repos" class="repo-list"></div><a id="github-profile" class="text-link github-link" href="https://github.com/" target="_blank" rel="noreferrer">Visit GitHub <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+    <section class="section journey-section" id="journey" aria-labelledby="journey-title">
+      <div class="wrap journey-grid"><div><p class="eyebrow">03 / THE JOURNEY SO FAR</p><h2 id="journey-title">Learning is<br><span class="muted">the whole point.</span></h2><p class="journey-intro">Every step adds a new perspective. Here’s what I’m focused on right now.</p></div>
+        <ol class="timeline"><li><span class="timeline-marker">01</span><div><p class="timeline-date">CURRENT · UNIVERSITY</p><h3>BICT Undergraduate</h3><p>Studying Information and Communication Technology at Uva Wellassa University.</p></div></li><li><span class="timeline-marker">02</span><div><p class="timeline-date">CURRENT · INTERNSHIP</p><h3>Digital Marketing Intern</h3><p>Building practical experience in business listings, research, and digital communication.</p></div></li><li><span class="timeline-marker">03</span><div><p class="timeline-date">ALWAYS ON</p><h3>Growing as a developer</h3><p>Practising web fundamentals and creating small projects to turn concepts into skills.</p></div></li></ol>
+      </div>
+    </section>
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="wrap contact-inner"><p class="eyebrow">04 / YOUR TURN</p><h2 id="contact-title">Have an idea?<br><span>Let’s make it real.</span></h2><p>I’m always happy to connect, learn, and explore new opportunities.</p><a class="button button-light" href="mailto:hello@example.com">Say hello <span aria-hidden="true">↗</span></a><span class="contact-decoration" aria-hidden="true">✳</span></div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand" href="#top"><span class="brand-mark">R.</span><span>rikash<span class="brand-dot">.</span></span></a><p>Made with curiosity in Sri Lanka · <span id="year"></span></p><a href="#top" class="back-top">BACK TO TOP ↑</a></div></footer>
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-inner"><button class="dialog-close" aria-label="Close project details">×</button><p class="eyebrow" id="dialog-kicker"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><div class="tag-row" id="dialog-tags"></div><a id="dialog-link" class="text-link" href="#" target="_blank" rel="noreferrer">Explore project <span aria-hidden="true">↗</span></a></div></dialog>
+</body>
+</html>
